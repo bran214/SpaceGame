@@ -10,7 +10,7 @@ class Player
   ArrayList<HealingOrb> healingOrbs = new ArrayList<HealingOrb>();
   Timer healingOrbCooldown;
   float points;
-  final static float MAX_POINTS = 100;
+  final static float MAX_POINTS = 10000;
   final static float HEALTH = 200;
   int gameOverFrame;
   
